@@ -26,7 +26,7 @@ To run this project locally, ensure you have the following installed:
 ### Clone the repository:
 Open a terminal and run the following command:
 
-git clone https://github.com/your-username/capstone-webpage.git
+git clone https://github.com/apoorv020902/capstone-webpage
 
 
 ### Navigate into the project directory:
