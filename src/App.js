@@ -77,7 +77,7 @@ const App = () => {
       </section>
 
       <footer>
-        <p>&copy; 2024 AI Powered Chatbot Capstone Project | CS4360 Fall 2024</p>
+        <p> 2024 AI Powered Chatbot Capstone Project | CS4366 Fall 2024</p>
       </footer>
     </div>
   );

@@ -1,9 +1,15 @@
+/* Global styling */
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f4f4f9;
+  background-image: url('/images/bg.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: #333;
   margin: 0;
   padding: 0;
+  opacity: 0.95; /* Optional, adjust this if needed */
 }
 
 .App {
@@ -11,20 +17,28 @@ body {
 }
 
 header {
-  background: linear-gradient(90deg, #2f80ed, #56ccf2);
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 40px;
-  color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
   font-size: 3rem;
+  color: #2f80ed;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #555;
 }
 
 section {
   padding: 40px 20px;
   max-width: 1200px;
   margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.9); /* Light background for content sections */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
 }
 
 h2 {
@@ -62,6 +76,7 @@ h2 {
   margin-bottom: 15px;
   width: 150px;
   height: 150px;
+  object-fit: cover;
 }
 
 .meeting, .schedule-item {
@@ -96,4 +111,23 @@ footer {
   color: white;
   padding: 20px;
   margin-top: 40px;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .member {
+    width: calc(45% - 20px);
+  }
+}
+
+@media (max-width: 576px) {
+  .member {
+    width: 100%;
+  }
+
+  .member img {
+    width: 120px;
+    height: 120px;
+  }
 }
