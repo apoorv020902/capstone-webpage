@@ -1,0 +1,40 @@
+.member {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: calc(30% - 20px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: left;
+  }
+  
+  .member:hover {
+    transform: translateY(-10px);
+  }
+  
+  .member-image {
+    border-radius: 50%;
+    margin-bottom: 15px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 768px) {
+    .member {
+      width: calc(45% - 20px);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .member {
+      width: 100%;
+    }
+  
+    .member-image {
+      width: 120px;
+      height: 120px;
+    }
+  }
+  

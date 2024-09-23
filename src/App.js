@@ -7,22 +7,28 @@ import JiraLink from './components/JiraLink';
 
 const membersData = [
   {
-    name: 'John Doe',
-    role: 'Project Lead',
-    image: 'https://via.placeholder.com/150',
-    description: 'John is responsible for overseeing the project and managing the team’s progress. He ensures the project stays on track and meets deadlines.',
+    name: 'Apoorv Rana',
+    role: 'Frontend Developer & Database Management',
+    image: '/images/Apoorv.jpeg',
+    description: 'Apoorv is responsible for the frontend development and also manages the database connections and operations.',
   },
   {
-    name: 'Jane Smith',
-    role: 'AI Developer',
-    image: 'https://via.placeholder.com/150',
-    description: 'Jane is responsible for developing the chatbot’s core AI functions, integrating NLP, and training the model with data.',
-  },
-  {
-    name: 'Mike Johnson',
+    name: 'Bolaji Atinsola',
     role: 'Frontend Developer',
-    image: 'https://via.placeholder.com/150',
-    description: 'Mike focuses on the frontend, ensuring that the user interface is responsive and interactive for the best user experience.',
+    image: '/images/Bola.jpeg',
+    description: 'Bolaji focuses on building and designing the frontend user interface and improving the user experience.',
+  },
+  {
+    name: 'Prajwal Mathur',
+    role: 'Backend Developer (Node.js & Middleware Chains)',
+    image: '/images/Prajwal.jpeg', 
+    description: 'Prajwal works on the backend with Node.js and handles the middleware chains.',
+  },
+  {
+    name: 'Zelepe Coulibaly',
+    role: 'Backend Developer (JWT & Cookies)',
+    image: '/images/Zel.jpeg', 
+    description: 'Zelepe implements JWT tokens, manages HTTP-only cookies, and ensures security with password encryption and signed cookies.',
   },
 ];
 
@@ -46,17 +52,22 @@ const App = () => {
       <section className="meetings">
         <h2>Group Meetings & Activities</h2>
         <div className="container">
-          <Meeting date="Oct 5th, 2024" time="10:00 AM" activity="Discussed integration with NLP model" />
-          <Meeting date="Oct 12th, 2024" time="1:00 PM" activity="Reviewed UI design for chatbot interface" />
+          <Meeting date="Sep 16th, 2024" activity="Project selection and task distribution." />
+          <Meeting date="Sep 19th, 2024" activity="Worked on the report, presentation, and discussed website design." />
+          <Meeting date="Sep 21st, 2024" activity="Final review of report and presentation before submission." />
+          <Meeting date="Sep 22nd, 2024" activity="Created the Jira board and set up project tasks." />
         </div>
       </section>
 
       <section className="schedule">
         <h2>Upcoming Schedule</h2>
         <div className="container">
-          <Schedule task="Finalize chatbot training data" due="Oct 20th, 2024" />
-          <Schedule task="Integrate backend with frontend" due="Nov 1st, 2024" />
-          <Schedule task="Final presentation rehearsal" due="Dec 5th, 2024" />
+          <Schedule task="Set up MongoDB database and define models" due="Sep 27th, 2024" />
+          <Schedule task="Set up routes for users and chats with validation" due="Oct 5th, 2024" />
+          <Schedule task="Implement JWT tokens and HTTP-only cookies for authentication" due="Oct 15th, 2024" />
+          <Schedule task="Create a responsive frontend with Material UI" due="Oct 25th, 2024" />
+          <Schedule task="Integrate OpenAI API with backend and frontend" due="Nov 5th, 2024" />
+          <Schedule task="Final bug fixes, optimizations, and testing" due="Nov 22nd, 2024" />
         </div>
       </section>
 
