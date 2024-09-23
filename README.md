@@ -29,7 +29,7 @@ Open a terminal and run the following command:
 git clone https://github.com/apoorv020902/capstone-webpage
 
 
-### Navigate into the project directory:
+### Navigate into the project directory::
 
 cd capstone-webpage
 

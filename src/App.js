@@ -19,7 +19,7 @@ const membersData = [
     description: 'Bolaji focuses on building and designing the frontend user interface and improving the user experience.',
   },
   {
-    name: 'Prajwal Mathur',
+    name: 'Prajval Mathur',
     role: 'Backend Developer (Node.js & Middleware Chains)',
     image: '/images/Prajwal.jpeg', 
     description: 'Prajwal works on the backend with Node.js and handles the middleware chains.',
