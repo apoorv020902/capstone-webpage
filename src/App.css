@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
+  background: linear-gradient(135deg, #f0f4f8, #ffffff); /* Subtle light gray to white gradient */
 }
 
 .App {
@@ -12,19 +13,20 @@ body {
 
 /* Styling for the header */
 header {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #2f80ed; /* Same blue background as footer */
   padding: 40px;
+  color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
   font-size: 3rem;
-  color: #2f80ed;
+  color: white; /* Text color to white for contrast */
 }
 
 header p {
   font-size: 1.2rem;
-  color: #555;
+  color: white; /* Text color to white for contrast */
 }
 
 /* General content section styling */
