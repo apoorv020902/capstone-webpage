@@ -1,21 +1,16 @@
 /* Global styling */
 body {
   font-family: 'Arial', sans-serif;
-  background-image: url('/images/bg.webp');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  color: #333;
   margin: 0;
   padding: 0;
-  opacity: 0.95; /* Optional, adjust this if needed */
+  color: #333;
 }
 
 .App {
   text-align: center;
 }
 
+/* Styling for the header */
 header {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 40px;
@@ -32,13 +27,19 @@ header p {
   color: #555;
 }
 
+
 section {
   padding: 40px 20px;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.9); /* Light background for content sections */
+  background-image: url('../public/images/bg.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
+  opacity: 0.95; 
 }
 
 h2 {
@@ -56,6 +57,7 @@ h2 {
   justify-content: space-between;
 }
 
+/* Member card styling */
 .member {
   background-color: #fff;
   border-radius: 8px;
@@ -106,6 +108,7 @@ h2 {
   background-color: #1f60b8;
 }
 
+/* Footer */
 footer {
   background-color: #2f80ed;
   color: white;
